@@ -1,0 +1,13 @@
+body {
+    background: linear-gradient(to right, #0b2b94, #caebff);
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    padding: 5px;
+}
+
+.project{
+    margin: 5px;
+}

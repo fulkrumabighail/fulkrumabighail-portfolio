@@ -1,0 +1,68 @@
+#palindromeChecker-project{
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 9px;
+    background: linear-gradient(to right, white, blue);
+}
+
+#box {
+    max-width: 500px;
+    max-height: 400px;
+    background-color: #ffffff;
+    color: black;
+    margin: 30px auto 0px;
+    padding: 10px;
+    border: 1px dashed black;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+}
+
+#header {
+    padding: 5px;
+    color: #0a0a23;
+    text-align: center;
+}
+
+#inputT {
+    padding: 5px;
+    color: #0a0a23;
+}
+
+#result {
+    text-align: center;
+    border-radius:10px;
+    color: #000000;
+    padding: 10px;
+    border: 1px #0a0a23;
+}
+#note{
+    text-align: center;
+    max-width: 500px;
+    max-height: 400px;
+    background:linear-gradient(to right, white,#0eff1a);
+    color: black;
+    margin: 30px auto 0px;
+    padding: 10px;
+    border: 1px black;
+    border-radius: 12px;
+}
+
+.hide{
+    display: none;
+}
+
+#text-input{
+    border: none; 
+    border-bottom: 2px solid #0b2b94; 
+    outline: none;
+}
+
+#check-btn{
+    color: #000;
+    background-color: #0eff1a;
+    border-radius: 10px;
+    border: 1px solid black;
+}
