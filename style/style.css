@@ -17,12 +17,15 @@
   }
 
 body {
-    background: linear-gradient(to right, #0b2b94, #caebff);
+    background: linear-gradient(to right, #293f85, #819eb1);
     font-family: sans-serif;
     display: flex;
-    flex-direction: column;
+    flex-direction: row ;
+    flex-wrap: wrap;
+    flex-flow: wrap;
     align-items: center; 
-    justify-content: center;
+    align-content: space-evenly;
+    /* justify-content: center; */
     padding: 5px;
 }
 

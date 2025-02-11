@@ -39,7 +39,7 @@
     padding-right: 10px;
   }
   
-  button {
+  #button1,#button2,#button3 {
     cursor: pointer;
     color: #0a0a23;
     background-color: #feac32;

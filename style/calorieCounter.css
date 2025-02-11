@@ -50,9 +50,10 @@ h1 {
     border-radius: 6px;
     margin-bottom: 10px;
 }
-button{
+#add-entry,#clear,#calculate{
     border: 1px solid black;
-    background: white;
+    color: black;
+    background: linear-gradient(to bottom, white, rgb(163, 235, 135));
 }
 
   .output {
