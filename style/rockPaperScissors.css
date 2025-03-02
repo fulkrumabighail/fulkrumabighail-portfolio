@@ -4,10 +4,12 @@
     background: linear-gradient(to right,white,grey);
     text-align: center;
     padding: 5px;
+    color: black;
 }
 
-h1 {
+#rockPaperScissors-project>h1 {
     margin: 15px 0 20px;
+    color: black;
   }
   
   .btn {

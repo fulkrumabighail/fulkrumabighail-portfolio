@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="./style/roleplayGame.css">
   <link rel="stylesheet" href="./style/dateFormatter.css">
   <link rel="stylesheet" href="./style/toDoList.css">
+  <link rel="stylesheet" href="./style/binaryConverter.css">
   <!-- for Music player -->
   <link rel="stylesheet" href="./style/musicPlayer.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet" />
@@ -31,7 +32,7 @@
       <br>
       For which you are going to spill the dismember tear
       <br>
-      And deafening cries will treble before your ears 
+      And deafening cries will treble before your ears
     </p>
   </div>
   <div id="palindromeChecker-project" class="project">
@@ -153,7 +154,7 @@
     </div>
   </div>
   <div id="roleplayGame-project" class="project">
-    <h3 style="text-align: center;">Street Gang Roleplay Game</h1>
+    <h1 style="text-align: center;">Street Gang Roleplay Game</h1>
       <div id="game">
         <div id="stat">
           <span class="stat">XP : <strong><span id="xpText">0</span></strong></span>
@@ -187,7 +188,7 @@
         </option>
       </select>
     </div>
-    
+
     <p id="current-date"></p>
   </div>
 
@@ -200,7 +201,10 @@
       <form class="task-form hidden" id="task-form">
         <div class="task-form-header">
           <button id="close-task-form-btn" class="close-task-form-btn" type="button" aria-label="close">
-            <svg class="close-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48px" height="48px"><path fill="#F44336" d="M21.5 4.5H26.501V43.5H21.5z" transform="rotate(45.001 24 24)" /><path fill="#F44336" d="M21.5 4.5H26.5V43.501H21.5z" transform="rotate(135.008 24 24)" /></svg>
+            <svg class="close-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48px" height="48px">
+              <path fill="#F44336" d="M21.5 4.5H26.501V43.5H21.5z" transform="rotate(45.001 24 24)" />
+              <path fill="#F44336" d="M21.5 4.5H26.5V43.501H21.5z" transform="rotate(135.008 24 24)" />
+            </svg>
           </button>
         </div>
         <div class="task-form-body">
@@ -233,7 +237,28 @@
       <div id="tasks-container"></div>
     </div>
   </div>
-
+  <div id="Binary-Converter" class="project">
+    <h1>
+      Decimal to Binary <br />
+      Converter
+    </h1>
+    <section class="input-container">
+      <label for="number-input">Enter a decimal number:</label>
+      <input
+        value=""
+        type="number"
+        name="decimal number input"
+        id="number-input"
+        class="number-input"
+      />
+      <button class="convert-btn" id="convert-btn">Convert</button>
+    </section>
+    <section class="output-container">
+      <output id="binary-result" for="number-input"></output>
+      <h2>Call stack</h2>
+      <div id="animation-container"></div>
+    </section>
+  </div>
   <div class="project">
     <div id="musicPlayer-project" class="project">
       <div class="container">
@@ -317,6 +342,7 @@
 <script src="./script/roleplayGame.js"></script>
 <script src="./script/musicPlayer.js"></script>
 <script src="./script/dateFormatter.js"></script>
+<script src="./script/binaryConverter.js"></script>
 <script src="./script/toDoList.js"></script>
 
 </html>

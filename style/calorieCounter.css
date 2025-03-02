@@ -2,9 +2,11 @@
     border: 1px solid black;
     border-radius: 9px;
     background: linear-gradient(to right, white, rgb(99, 213, 233));
+    color: black;
 }
-h1 {
+#calorieCounter-project>h1 {
     text-align: center;
+    color: black;
   }
   
   .container {

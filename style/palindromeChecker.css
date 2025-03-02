@@ -5,6 +5,10 @@
     background: linear-gradient(to right, white, blue);
 }
 
+#palindromeChecker-project>h1{
+    color   :black
+}
+
 #box {
     max-width: 500px;
     max-height: 400px;
