@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="./style/dateFormatter.css">
   <link rel="stylesheet" href="./style/toDoList.css">
   <link rel="stylesheet" href="./style/binaryConverter.css">
+  <link rel="stylesheet" href="./style/romanConverter.css">
   <!-- for Music player -->
   <link rel="stylesheet" href="./style/musicPlayer.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet" />
@@ -155,25 +156,25 @@
   </div>
   <div id="roleplayGame-project" class="project">
     <h1 style="text-align: center;">Street Gang Roleplay Game</h1>
-      <div id="game">
-        <div id="stat">
-          <span class="stat">XP : <strong><span id="xpText">0</span></strong></span>
-          <span class="stat">HP : <strong><span id="hpText">100</span></strong></span>
-          <span class="stat">Gold :<strong><span id="goldText">50</span></strong></span>
-        </div>
-        <div id="controls">
-          <button id="button1">Go To Black Market</button>
-          <button id="button2">Go To Street</button>
-          <button id="button3">Mafia Boss</button>
-        </div>
-        <div id="enemyStats">
-          <span class="stat">Enemy Name : <strong><span id="enemyName">0</span></strong></span>
-          <span class="stat">Health : <strong><span id="enemyHealth">100</span></strong></span>
-        </div>
-        <div id="text">
-          Welcome to Street Fighting Ring !!
-        </div>
+    <div id="game">
+      <div id="stat">
+        <span class="stat">XP : <strong><span id="xpText">0</span></strong></span>
+        <span class="stat">HP : <strong><span id="hpText">100</span></strong></span>
+        <span class="stat">Gold :<strong><span id="goldText">50</span></strong></span>
       </div>
+      <div id="controls">
+        <button id="button1">Go To Black Market</button>
+        <button id="button2">Go To Street</button>
+        <button id="button3">Mafia Boss</button>
+      </div>
+      <div id="enemyStats">
+        <span class="stat">Enemy Name : <strong><span id="enemyName">0</span></strong></span>
+        <span class="stat">Health : <strong><span id="enemyHealth">100</span></strong></span>
+      </div>
+      <div id="text">
+        Welcome to Street Fighting Ring !!
+      </div>
+    </div>
   </div>
   <div id="dateFormatter-project" class="project">
     <div class="title-container">
@@ -244,13 +245,7 @@
     </h1>
     <section class="input-container">
       <label for="number-input">Enter a decimal number:</label>
-      <input
-        value=""
-        type="number"
-        name="decimal number input"
-        id="number-input"
-        class="number-input"
-      />
+      <input value="" type="number" name="decimal number input" id="number-input" class="number-input" />
       <button class="convert-btn" id="convert-btn">Convert</button>
     </section>
     <section class="output-container">
@@ -258,6 +253,18 @@
       <h2>Call stack</h2>
       <div id="animation-container"></div>
     </section>
+  </div>
+  <div id="Roman-Converter" class="project">
+    <div>
+      <h1>Roman Converter</h1>
+    </div>
+    <div>
+      <input type="text" id="arabic-number">
+      <button id="convertRoman-btn">Convert</button>
+    </div>
+    <div>
+      <p id="roman-output"></p>
+    </div>
   </div>
   <div class="project">
     <div id="musicPlayer-project" class="project">
@@ -343,6 +350,7 @@
 <script src="./script/musicPlayer.js"></script>
 <script src="./script/dateFormatter.js"></script>
 <script src="./script/binaryConverter.js"></script>
+<script src="./script/romanConverter.js"></script>
 <script src="./script/toDoList.js"></script>
 
 </html>
